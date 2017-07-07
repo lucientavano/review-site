@@ -1,0 +1,199 @@
+/*!
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+.custom-header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.custom-header-row {
+    padding-top: 20px;
+}
+
+.top-row {
+    padding-top: 30px;
+}
+
+.custom-col-top-card {
+    vertical-align: middle;
+}
+
+.custom-top-card-img {
+    padding-bottom: 3px;
+}
+
+.card-h4 {
+    margin-bottom: 0px;
+    padding-top: 3px;
+}
+
+.welcome-message {
+    font-size: 20px;
+    line-height: 1.5
+}
+
+.welcome-message-footer {
+    font-size: 20px;
+    line-height: 1.5;
+    color: grey;
+}
+
+.custom-breadcrumb {
+    background-color: #f9f9f9;
+}
+
+.profile-img {
+    max-width: 200px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.custom-video-row {
+    margin: 0px 0px 15px 0px;
+}
+.custom-footer {
+    margin-top: 1rem;
+    padding-top: 2rem;
+
+}
+
+.custom-col-top {
+    background-color: #f9f9f9;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.custom-col-bottom {
+    background-color: #f9f9f9;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.fa-star {
+    color: #F6D023;
+}
+
+.fa-star-o {
+    color: #F6D023;
+}
+
+#grey-star {
+    color: lightgrey;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+    .card {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+    }
+    
+    .custom-top-card {
+    padding-top: 0rem;
+    }
+    
+    .card-block {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    
+    .custom-top-card-block {
+        padding-top: 10px;
+    }
+    
+    .custom-col-top {
+    background-color: transparent;
+    }
+
+    .custom-col-bottom {
+        background-color: transparent;
+        padding-right: 1.75rem;
+    }
+    .custom-col-align-left {
+        text-align: left;
+    }
+    .custom-video-row {
+    margin: 0px 0px 5px 0px;
+    }
+    .col-last-right {
+        padding-right: 1.5rem;
+    }
+}
+
+.card:focus, .card:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+}
+
+.inactive-link {
+    color: lightgrey;
+}
+
+.inactive-link:hover {
+    color: lightgrey;
+}
+
+.referral-disclaimer {
+    color: grey;
+}
+
+.btn-inactive {
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.btn-inactive:hover {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+}
+
+.btn-cta {
+    height: 60px;
+    margin-top: 1rem;
+}
+
+.custom-btn-other-apps {
+    background-color: #0075DF;
+    border: 1px solid white;
+    color: white;
+}
+
+.custom-btn-other-apps:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #0075DF;
+}
+
+.signature {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ----------- Newsletter ---------- */
+
+.email-form {
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+.btn-newsletter {
+    margin-top: 20px;
+    border: 1px solid white;
+    color: white;
+}
