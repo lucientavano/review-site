@@ -197,3 +197,36 @@ body {
     border: 1px solid white;
     color: white;
 }
+
+.img-portfolio {
+    margin-bottom: 10px;
+}
+
+.col-portfolio {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .col-portfolio {
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+}
+
+.row-portfolio {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .row-portfolio {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+}
+
+.price-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
