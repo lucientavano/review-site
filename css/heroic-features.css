@@ -234,3 +234,7 @@ body {
 .last-card {
     margin-bottom: 25px
 }
+
+.mark-custom {
+    background-color: #f9f9f9;
+}
