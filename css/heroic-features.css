@@ -43,6 +43,10 @@ body {
     line-height: 1.5
 }
 
+.card-bottom {
+    margin-bottom: 25px
+}
+
 .welcome-message-footer {
     font-size: 20px;
     line-height: 1.5;
@@ -214,6 +218,14 @@ body {
     }
 }
 
+.col-appstore-right {
+    padding-left: 5px;
+}
+
+.col-appstore-left {
+    padding-right: 5px;
+}
+
 .row-portfolio {
     padding-left: 0px;
     padding-right: 0px;
@@ -235,6 +247,18 @@ body {
     margin-bottom: 25px
 }
 
-.mark-custom {
-    background-color: #f9f9f9;
+.hr-custom {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #0275d8;
+    margin-left: 0px;
+}
+
+.p-underlined {
+    border-bottom: 3px solid #0275d8;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    display: block;
+    max-width: 50px;
 }
