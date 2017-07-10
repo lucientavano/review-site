@@ -133,10 +133,12 @@ body {
     }
 }
 
+/*
 .card:focus, .card:hover {
     background-color: #f9f9f9;
     border: 1px solid #f9f9f9;
 }
+*/
 
 .inactive-link {
     color: lightgrey;
@@ -158,11 +160,6 @@ body {
 .btn-inactive:hover {
     background-color: darkgrey;
     border: 1px solid darkgrey;
-}
-
-.btn-cta {
-    height: 60px;
-    margin-top: 1rem;
 }
 
 .custom-btn-other-apps {
