@@ -84,11 +84,7 @@ body {
     border-bottom-right-radius: .25rem;
 }
 
-.fa-star {
-    color: #F6D023;
-}
-
-.fa-star-o {
+.fa-star, .fa-star-o, .fa-star-half-o {
     color: #F6D023;
 }
 
