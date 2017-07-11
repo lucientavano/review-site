@@ -92,6 +92,51 @@ body {
     color: lightgrey;
 }
 
+/* ----------- Review ---------- */
+
+.img-review {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.col-review  {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-review  {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row-review {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .img-review {
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .col-review  {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .row-review {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* ----------- /. Review ---------- */
+
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
@@ -130,6 +175,10 @@ body {
     }
     .col-last-right {
         padding-right: 1.5rem;
+    }
+    .col-review  {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -254,4 +303,13 @@ body {
     margin-bottom: 20px;
     display: block;
     max-width: 50px;
+}
+
+.btn-outline-orange {
+    border: 1px solid #FF5E00;
+}
+
+.btn-img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
