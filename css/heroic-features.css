@@ -323,6 +323,11 @@ body {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+.col-hire-me {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .clickable {
     cursor: pointer;
 }
