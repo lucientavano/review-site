@@ -329,6 +329,7 @@ body {
 
 /* vertical align funding-process-modal */
 
+/*
 .modal.funding-process-modal .modal-dialog {
   transform: translateY(-25%);
   top: 50%;
@@ -344,9 +345,11 @@ body {
   overflow-y: auto;
   padding: 0px;
 }
+*/
 
 /* vertical align withdrawal-modal */
 
+/*
 .modal.withdrawal-modal .modal-dialog {
   transform: translateY(-25%);
   top: 50%;
@@ -362,9 +365,11 @@ body {
   overflow-y: auto;
   padding: 0px;
 }
+*/
 
 /* vertical align trading-experience-modal */
 
+/*
 .modal.trading-experience-modal .modal-dialog {
   transform: translateY(-25%);
   top: 50%;
@@ -380,4 +385,5 @@ body {
   overflow-y: auto;
   padding: 0px;
 }
+*/
 
