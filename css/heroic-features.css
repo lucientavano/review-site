@@ -326,3 +326,58 @@ body {
 .clickable {
     cursor: pointer;
 }
+
+/* vertical align funding-process-modal */
+
+.modal.funding-process-modal .modal-dialog {
+  transform: translateY(-25%);
+  top: 50%;
+  margin: 0 auto;
+}
+
+.modal.funding-process-modal.show .modal-dialog {
+  transform: translateY(-50%);
+}
+
+.modal-content {
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 0px;
+}
+
+/* vertical align withdrawal-modal */
+
+.modal.withdrawal-modal .modal-dialog {
+  transform: translateY(-25%);
+  top: 50%;
+  margin: 0 auto;
+}
+
+.modal.withdrawal-modal.show .modal-dialog {
+  transform: translateY(-50%);
+}
+
+.modal-content {
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 0px;
+}
+
+/* vertical align trading-experience-modal */
+
+.modal.trading-experience-modal .modal-dialog {
+  transform: translateY(-25%);
+  top: 50%;
+  margin: 0 auto;
+}
+
+.modal.trading-experience-modal.show .modal-dialog {
+  transform: translateY(-50%);
+}
+
+.modal-content {
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 0px;
+}
+
