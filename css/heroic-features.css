@@ -84,7 +84,7 @@ body {
     border-bottom-right-radius: .25rem;
 }
 
-.fa-star, .fa-star-o, .fa-star-half-o {
+.fa-star, .fa-star-o, .fa-star-half, .fa-star-half-o {
     color: #F6D023;
 }
 
@@ -299,19 +299,17 @@ body {
 }
 
 .hr-custom {
-    max-width: 50px;
-    border-width: 3px;
-    border-color: #0275d8;
-    margin-left: 0px;
-}
-
-.p-underlined {
-    border-bottom: 3px solid #0275d8;
+    border-top: 3px solid #0275d8;
     margin-top: 0px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-bottom: 20px;
     display: block;
     max-width: 50px;
+}
+
+.section-title {
+    margin-bottom: 10px;
 }
 
 .btn-outline-orange {
