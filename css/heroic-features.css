@@ -321,6 +321,17 @@ body {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+.btn-more {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    .btn-more {
+        width: auto;
+        margin-bottom: 20px;
+    }
+}
 .col-hire-me {
     padding-left: 0px;
     padding-right: 0px;
