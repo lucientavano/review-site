@@ -125,8 +125,46 @@
             </div>
         </header>
         
+        <!-- Filters -->
+
+        <div class="filters">
+
+            <div class="ui-group">
+                <h3>Level</h3>
+                <div class="button-group js-radio-button-group" data-filter-group="car-category">
+                    <button class="button btn is-checked" data-filter="">All</button>
+                    <button class="button btn" data-filter=".beginner">Beginner</button>
+                    <button class="button btn" data-filter=".advanced">Advanced</button>
+                    
+                </div>
+            </div>
+            <div class="ui-group">
+                <h3>Capital</h3>
+                <div class="button-group js-radio-button-group" data-filter-group="car-category">
+                    <button class="button btn is-checked" data-filter="">All</button>
+                    <button class="button btn" data-filter=".10dollars">$10</button>
+                    <button class="button btn" data-filter=".50dollars">$50</button>
+                    <button class="button btn" data-filter=".250dollars">$250</button>
+                </div>
+            </div>
+            <div class="ui-group">
+                <h3>Products</h3>
+                <div class="button-group js-radio-button-group" data-filter-group="car-purpose">
+                    <button class="button btn is-checked" data-filter="">All</button>
+                    <button class="button btn" data-filter=".forex">Forex</button>
+                    <button class="button btn" data-filter=".options">Options</button>
+                    <button class="button btn" data-filter=".stocks">Stocks</button>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- /. Filters -->
+        
+<!--
         <p class="lead section-title">Latest reviews</p>
         <div class="hr-custom"></div>
+-->
 
         <!-- Item Reviewed IQ Option -->
         <div class="card">
@@ -536,6 +574,10 @@
     <script src="/vendor/tether/tether.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/3c2bfebe85.js"></script>
+    <script src="/vendor/Isotope/isotope.pkgd.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="/js/filter.js"></script>
 
 </body>
 
