@@ -84,7 +84,7 @@ body {
     border-bottom-right-radius: .25rem;
 }
 
-.fa-star, .fa-star-o, .fa-star-half-o {
+.fa-star, .fa-star-o, .fa-star-half, .fa-star-half-o {
     color: #F6D023;
 }
 
@@ -299,19 +299,17 @@ body {
 }
 
 .hr-custom {
-    max-width: 50px;
-    border-width: 3px;
-    border-color: #0275d8;
-    margin-left: 0px;
-}
-
-.p-underlined {
-    border-bottom: 3px solid #0275d8;
+    border-top: 3px solid #0275d8;
     margin-top: 0px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-bottom: 20px;
     display: block;
     max-width: 50px;
+}
+
+.section-title {
+    margin-bottom: 10px;
 }
 
 .btn-outline-orange {
@@ -323,6 +321,17 @@ body {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+.btn-more {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    .btn-more {
+        width: auto;
+        margin-bottom: 20px;
+    }
+}
 .col-hire-me {
     padding-left: 0px;
     padding-right: 0px;
@@ -333,6 +342,20 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+.img-blog-preview {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+    .img-blog-preview {
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+}
 }
 
 .clickable {
