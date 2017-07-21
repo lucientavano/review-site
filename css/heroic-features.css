@@ -380,7 +380,7 @@ body {
     height: 100%;
 }
 
-/* --------- Isotop --------------- */
+/* --------- Filter Buttons --------------- */
 
 /* ---- button ---- */
 
@@ -476,4 +476,60 @@ body {
     .ui-group:last-child {
         margin-bottom: 0px;
     }
+}
+
+.btn-select {
+    overflow: hidden;
+    display: block;
+}
+
+.btn-select select {
+   border: 1px solid rgba(0, 0, 0, .125);
+   color: #000;
+   padding: 10px 30px 10px 10px;
+   -webkit-appearance: none;
+    background: #f9f9f9 url("/assets/up_down.png") no-repeat scroll right center;
+    background-size: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    
+    .btn-select {
+        overflow: hidden;
+        
+    }
+    
+    .btn-select select {
+        border: 1px solid rgba(0, 0, 0, .125);
+        color: #000;
+        padding: 10px 30px 10px 10px;
+        -webkit-appearance: none;
+        background: #f9f9f9 url("/assets/up_down.png") no-repeat scroll right center;
+        background-size: 30px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+}
+
+.btn-select-col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    
+    .btn-select-col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btn-select-col:first-child {
+        padding-left: 15px;
+    }
+    .btn-select-col:last-child {
+        padding-right: 15px;
+    }
+    
 }
